@@ -1,0 +1,17 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "A Simple Webpack App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Webpack"
+  ],
+  "author": "russell@factormine.co.uk",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
