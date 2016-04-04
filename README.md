@@ -15,6 +15,24 @@ With CSS Binding
 webpack ./entry.js bundle.js --module-bind 'css=style!css'
 ```
 
+With Config
+
+```
+# Basic
+$ webpack
+
+# With colors and a progress bar
+$ webpack --progress --colors
+
+# Watch mode
+$ webpack --progress --colors --watch
+
+```
+
+
+
+
+
 
 ### Links
 
