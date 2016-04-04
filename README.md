@@ -29,6 +29,15 @@ $ webpack --progress --colors --watch
 
 ```
 
+With Server
+
+```
+$ webpack-dev-server --progress --colors
+
+# Run from
+# http://localhost:8080/webpack-dev-server/bundle
+```
+
 
 
 
