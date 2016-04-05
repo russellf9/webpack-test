@@ -2,6 +2,14 @@
 
 I'm attempting to learn Angular and am about to start using Webpack, rather than using a seed I thought I should run through the basics of Webpack so I'll understand it better.
 
+## What is Webpack?
+
+_"webpack is a module bundler.
+  
+  webpack takes modules with dependencies and generates static assets representing those modules."_
+  
+It handles the most common module styles: [CommonJs](https://webpack.github.io/docs/commonjs.html) and AMD.
+
 ### Run
 
 ```
@@ -52,3 +60,5 @@ $ npm run go
 ### Links
 
 [Getting Started](http://webpack.github.io/docs/tutorials/getting-started/)
+
+[TypeScript and webpack](http://www.jbrantly.com/typescript-and-webpack/)
