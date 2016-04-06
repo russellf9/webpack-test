@@ -64,3 +64,7 @@ $ npm run go
 [TypeScript and webpack](http://www.jbrantly.com/typescript-and-webpack/)
 
 [Smarter CSS builds with Webpack](https://www.bensmithett.com/smarter-css-builds-with-webpack/)
+
+[faster-sass-builds-with-webpack](http://eng.localytics.com/faster-sass-builds-with-webpack/)
+
+[github.com/jtangelder/sass-loader](https://github.com/jtangelder/sass-loader)
