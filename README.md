@@ -59,6 +59,8 @@ $ npm run go
 
 ### Links
 
+[developing_with_webpack](http://survivejs.com/webpack_react/developing_with_webpack/)
+
 [Getting Started](http://webpack.github.io/docs/tutorials/getting-started/)
 
 [TypeScript and webpack](http://www.jbrantly.com/typescript-and-webpack/)
@@ -68,3 +70,11 @@ $ npm run go
 [faster-sass-builds-with-webpack](http://eng.localytics.com/faster-sass-builds-with-webpack/)
 
 [github.com/jtangelder/sass-loader](https://github.com/jtangelder/sass-loader)
+
+[angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter)
+
+Using node more
+[SO](http://stackoverflow.com/questions/32155154/webpack-config-how-to-just-copy-the-index-html-to-the-dist-folder)
+
+For SASS
+[introduction-to-webpack-with-practical-examples])http://julienrenaux.fr/2015/03/30/introduction-to-webpack-with-practical-examples/)

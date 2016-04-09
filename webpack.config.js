@@ -1,25 +1,14 @@
-var webpack = require('webpack');
+const path = require('path');
+
+const PATHS = {
+    app: path.join(__dirname, 'app'),
+    build: path.join(__dirname, 'build')
+};
+
 module.exports = {
-
-    entry: './app.ts',
+    entry: PATHS.app,
     output: {
-        path: __dirname,
+        path: PATHS.build,
         filename: 'bundle.js'
-    },
-    // turn on sourcemaps
-    devtool: 'source-map',
-    resolve: {
-        extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
-    },
-    // add minification
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin()
-    ],
-    module: {
-        loaders: [
-            { test: /\.css$/, loader: 'style!css'},
-            { test: /\.ts$/, loader: 'ts-loader' }
-        ]
     }
-
 };
