@@ -30,6 +30,7 @@ build/Release
 node_modules
 
 /app.js
+/*/**/*.js
 /greeter.ts
 /typings
 .idea/
