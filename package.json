@@ -7,7 +7,7 @@
     "build": "webpack",
     "start": "webpack-dev-server --content-base build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "go": "webpack-dev-server --progress --colors --profile --json > stats.json"
+    "go": "webpack-dev-server"
   },
   "keywords": [
     "Webpack"
@@ -20,7 +20,8 @@
     "tsd": "^0.6.5",
     "typescript": "^1.8.9",
     "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.9.0"
   },
   "dependencies": {
     "ts-loader": "^0.8.1"
