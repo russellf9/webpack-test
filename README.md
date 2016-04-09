@@ -23,6 +23,8 @@ Possible steps:
 7. Use Hot Module Replacement (HMR)
 8. Add source maps
 9. Add typescript
+10. Add profiler
+11. Add SASS
 
 
 
