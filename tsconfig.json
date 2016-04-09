@@ -1,7 +1,9 @@
 {
   "compilerOptions" : {
+    "target": "es5",
     "module" : "commonjs",
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir" : "build"
   },
   "files": [
     "./app/app.ts", "typings/tsd.d.ts"
