@@ -30,7 +30,12 @@ const common = {
         loaders: [
             { test: /\.ts$/, loaders: ['ts-loader'], exclude: /node_modules/ },
             { test: /\.css$/,
-                loaders: ['style', 'css'],
+                loaders: ['style', 'css', 'sass'],
+                include: PATHS.app
+            },
+            {
+                test: /\.scss$/,
+                loader: 'css-loader!sass-loader',
                 include: PATHS.app
             }
         ]
