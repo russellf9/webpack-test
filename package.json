@@ -4,7 +4,7 @@
   "description": "A Simple Webpack App",
   "main": "index.js",
   "scripts": {
-    "go": "webpack-dev-server",
+    "start" : "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
