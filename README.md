@@ -101,3 +101,5 @@ For SASS
 [introduction-to-webpack-with-practical-examples])http://julienrenaux.fr/2015/03/30/introduction-to-webpack-with-practical-examples/)
 
 [es6](http://exploringjs.com/es6/)
+
+[Modulization-and-Bundling-with-TypeScript-and-Webpack-for-JS-Full-Stack-Project/](http://www.thinkingincrowd.me/2016/01/02/Modulization-and-Bundling-with-TypeScript-and-Webpack-for-JS-Full-Stack-Project/)

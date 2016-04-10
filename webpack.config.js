@@ -1,5 +1,9 @@
-var webpack = require('webpack'),
-    path = require('path');
+const path = require('path');
+const webpack = require('webpack');
+const NpmInstallPlugin = require('npm-install-webpack-plugin');
+
+
+
 module.exports = {
     context: __dirname + '/app',
     entry: {
@@ -18,5 +22,25 @@ module.exports = {
         loaders: [
             { test: /\.ts$/, loaders: ['ts-loader'], exclude: /node_modules/ }
         ]
-    }
+    },
+    devServer: {
+        contentBase: __dirname + '/build',
+
+        historyApiFallback: true,
+        hot: true,
+        inline: true,
+        progress: true,
+
+
+        stats: 'errors-only',
+
+        host: process.env.HOST,
+        port: process.env.PORT
+    },
+    plugins: [
+        new webpack.HotModuleReplacementPlugin(),
+        new NpmInstallPlugin({
+            save: true // --save
+        })
+    ]
 };
