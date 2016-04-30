@@ -11,6 +11,7 @@
     "zone.js": "0.5.10"
   },
   "devDependencies": {
+    "angular2-hmr": "~0.5.6",
     "npm-install-webpack-plugin": "^3.1.0",
     "ts-loader": "^0.8.1",
     "tsd": "^0.6.5",
@@ -20,7 +21,9 @@
     "webpack-merge": "^0.9.0"
   },
   "scripts": {
+    "start": "webpack && webpack-dev-server --hot",
     "build": "webpack",
-    "go": "webpack-dev-server"
+    "go": "npm run build && webpack-dev-server --inline --hot",
+    "server:dev:hmr": "npm run server:dev --hot"
   }
 }

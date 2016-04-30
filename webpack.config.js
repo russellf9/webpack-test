@@ -8,7 +8,7 @@ const merge = require('webpack-merge');
 const TARGET = process.env.npm_lifecycle_event;
 
 const PATHS = {
-    app: path.join(__dirname, 'app'),
+    app: path.join(__dirname, 'src'),
     build: path.join(__dirname, 'dist')
 };
 
@@ -16,7 +16,7 @@ const common = {
     entry: "./src/hello",
     output: {
         path: PATHS.build,
-        publicPath: PATHS.build,
+        publicPath: 'assets',
         filename: "bundle.js"
     },
     resolve: {
@@ -24,7 +24,8 @@ const common = {
     },
     module: {
         loaders: [{
-            test: /\.ts/, loaders: ['ts-loader'], exclude: /node_modules/
+            test: /\.ts/, loaders: ['ts-loader'],
+            exclude: /node_modules/
         }]
     }
 };
@@ -49,7 +50,7 @@ if (TARGET === 'start' || !TARGET) {
             port: process.env.PORT
         },
         plugins: [
-            new webpack.HotModuleReplacementPlugin(),
+           // new webpack.HotModuleReplacementPlugin(),
             new NpmInstallPlugin({
                 save: true // --save
             })

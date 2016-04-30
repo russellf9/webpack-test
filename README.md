@@ -94,9 +94,24 @@ I've used quite a few plugins and dependancies, I'll list a few here:
 
 * [npm-install-webpack-plugin](https://github.com/ericclemmons/npm-install-webpack-plugin)
 
+### Annoying Logs
+
+```
+ts-loader: Using typescript@1.9.0-dev.20160428-1.0 and /Users/factornine/localhosts/www.factornine.co.uk/development/webpack-test/tsconfig.json
+Hash: 6ceb2fc32b93d6dfa9c6
+Version: webpack 1.13.0
+Time: 6238ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  4.09 MB       0  [emitted]  main
+    + 218 hidden modules
+
+ERROR in /Users/factornine/localhosts/www.factornine.co.uk/development/webpack-test/node_modules/angular2/src/facade/promise.d.ts
+(1,10): error TS2661: Cannot export 'Promise'. Only local declarations can be exported from a module.
+```
 
 ### Links
 
+This was the best guide:
 [developing_with_webpack](http://survivejs.com/webpack_react/developing_with_webpack/)
 
 [Getting Started](http://webpack.github.io/docs/tutorials/getting-started/)
@@ -126,3 +141,14 @@ For SASS
 [Quickstart to Webkit](https://www.youtube.com/watch?v=j9w5hFit5rM)
 
 [ng2-webpack-play](https://github.com/pkozlowski-opensource/ng2-webpack-play)
+
+I was having a real issue with the typescript hot loading working
+
+Using `npm run start`
+
+Working with React - [Hot loading React Components in TypeScript](http://blog.novanet.no/hot-loading-react-in-typescript/)
+
+Issue https://github.com/webpack/webpack-dev-server/issues/24
+
+[angular2-hmr](https://github.com/gdi2290/angular2-hmr) Used in the ng seed bit I couldn't find put how to get this working.
+
