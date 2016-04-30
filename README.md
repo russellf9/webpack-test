@@ -73,7 +73,20 @@ Or via NPM
 $ npm run go
 ```
 
+### Notes
 
+## Typescript
+
+I had real issues with this module, the `webpack-dev-server` was not running correctly. The `build` was providing me with an error ```
+ERROR in /Users/factornine/localhosts/www.factornine.co.uk/development/webpack-test/node_modules/angular2/src/facade/promise.d.ts
+(1,10): error TS2661: Cannot re-export name that is not defined in the module.
+```
+
+I simple upgraded by:
+
+```
+npm i typescript@next -D
+```
 
 
 
@@ -103,3 +116,9 @@ For SASS
 [es6](http://exploringjs.com/es6/)
 
 [Modulization-and-Bundling-with-TypeScript-and-Webpack-for-JS-Full-Stack-Project/](http://www.thinkingincrowd.me/2016/01/02/Modulization-and-Bundling-with-TypeScript-and-Webpack-for-JS-Full-Stack-Project/)
+
+[Angular 1](http://www.shmck.com/webpack-angular-part-1/)
+
+[Quickstart to Webkit](https://www.youtube.com/watch?v=j9w5hFit5rM)
+
+[ng2-webpack-play](https://github.com/pkozlowski-opensource/ng2-webpack-play)

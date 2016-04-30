@@ -1,11 +1,13 @@
 {
-  "compilerOptions" : {
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "target": "es5",
-    "module" : "commonjs",
-    "sourceMap": true,
-    "outDir" : "build"
+    "module": "commonjs",
+    "removeComments": true,
+    "sourceMap": false
   },
-  "files": [
-    "./app/app.ts", "typings/tsd.d.ts"
+  "exclude": [
+    "node_modules"
   ]
 }
