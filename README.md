@@ -88,7 +88,9 @@ I simple upgraded by:
 npm i typescript@next -D
 ```
 
+### Dependancies
 
+[npm-install-webpack-plugin](https://github.com/ericclemmons/npm-install-webpack-plugin)
 
 
 ### Links
